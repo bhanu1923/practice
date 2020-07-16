@@ -2,4 +2,6 @@
  
  COPY target/*.war /usr/local/tomcat/webapps
  
+ RUN ls -al
+ 
  
